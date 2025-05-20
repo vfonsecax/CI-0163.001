@@ -1,0 +1,5 @@
+plt.plot(x, x + 0, '-g', label='solid green')  # solid green
+plt.plot(x, x + 1, '--c', label='dashed cyan') # dashed cyan
+plt.plot(x, x + 2, '-.k', label='dashdot black') # dashdot black
+plt.plot(x, x + 3, ':r', label='dotted red');  # dotted red
+plt.legend(framealpha=1, frameon=True, loc='upper left');
